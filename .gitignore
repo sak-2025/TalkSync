@@ -1,0 +1,7 @@
+# Virtual environments
+.myenv
+
+# secret ket
+.env
+__pycache__/
+chatbot.db

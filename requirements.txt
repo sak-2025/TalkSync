@@ -1,0 +1,9 @@
+langgraph-checkpoint-sqlite
+langchain
+langsmith
+python-dotenv
+langchain_openai
+streamlit
+langchain_community
+ddgs
+tavily-python
