@@ -20,7 +20,7 @@ Each user gets a personalized AI chat experience that remembers context, demonst
 - **Frontend**: Streamlit
 
 ## Installation
-git clone https://github.com/sak/TalkSync.git
+git clone https://github.com/sak-2025/TalkSync.git
 
 cd TalkSync
 
