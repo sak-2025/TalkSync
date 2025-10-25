@@ -21,5 +21,7 @@ Each user gets a personalized AI chat experience that remembers context, demonst
 
 ## Installation
 git clone https://github.com/sak/TalkSync.git
+
 cd TalkSync
+
 pip install -r requirements.txt
