@@ -25,13 +25,14 @@ connection = sqlite3.connect(database='chatbot.db',check_same_thread=False)
 checkpointer = SqliteSaver(conn=connection)
 
 
-
+#llm
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
+#State
 class ChatState(TypedDict):
     messages : Annotated[List[BaseMessage],add_messages]
 
-
+#node method
 def chat_node(state : ChatState):
     mesg = state['messages']
     result = llm_with_Tool.invoke(mesg)
